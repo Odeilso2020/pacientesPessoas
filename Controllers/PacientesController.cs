@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -14,6 +15,22 @@ namespace pacientesPessoas.Controllers
         }
 
         public IActionResult Index(){
+            // Criar uma lista de pacientes
+            var listaPacientes = new List<Pacientes>(){
+                new Pacientes(1, 5, "01/09/2020", "Teste1", 1),
+                new Pacientes(2, 6, "02/09/2020", "Teste2", 2),
+                new Pacientes(3, 7, "03/09/2020", "Teste3", 3),
+                new Pacientes(4, 8, "04/09/2020", "Teste4", 4),
+                new Pacientes(5, 9, "05/09/2020", "Teste5", 5),
+            };
+            return View(listaPacientes);
+        }
+
+        public IActionResult Editar(){
+            return View();
+        }
+
+        public IActionResult Excluir(){
             return View();
         }
 

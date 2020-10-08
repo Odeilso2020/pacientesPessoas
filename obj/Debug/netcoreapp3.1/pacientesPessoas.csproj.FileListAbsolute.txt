@@ -52,3 +52,5 @@ E:\teste\pacientesPessoas\bin\Debug\netcoreapp3.1\WebEssentials.AspNetCore.Pwa.d
 E:\teste\pacientesPessoas\obj\Debug\netcoreapp3.1\pacientesPessoas.MvcApplicationPartsAssemblyInfo.cs
 E:\teste\pacientesPessoas\obj\Debug\netcoreapp3.1\Razor\Views\Home\Teste.cshtml.g.cs
 E:\teste\pacientesPessoas\obj\Debug\netcoreapp3.1\Razor\Views\Pacientes\Index.cshtml.g.cs
+E:\teste\pacientesPessoas\obj\Debug\netcoreapp3.1\Razor\Views\Pacientes\Editar.cshtml.g.cs
+E:\teste\pacientesPessoas\obj\Debug\netcoreapp3.1\Razor\Views\Pacientes\Excluir.cshtml.g.cs
