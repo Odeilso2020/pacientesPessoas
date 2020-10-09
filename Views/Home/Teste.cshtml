@@ -4,7 +4,7 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Fazendo um teste</p>
+<p>Fazendo um teste.</p>
 
 <div class="container">
     <table class="table">
@@ -18,12 +18,13 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@Html.DisplayFor(ModelItem => item.id)</td>
-                <td>@Html.DisplayFor(ModelItem => item.idPessoa)</td>
-                <td>@Html.DisplayFor(ModelItem => item.data_entrada)</td>
-                <td>@Html.DisplayFor(ModelItem => item.comorbidade)</td>
-                <td>@Html.DisplayFor(ModelItem => item.grau)</td>
+                <td>@Html.DisplayFor(modelItem => item.id)</td>
+                <td>@Html.DisplayFor(modelItem => item.idPessoa)</td>
+                <td>@Html.DisplayFor(modelItem => item.data_entrada)</td>
+                <td>@Html.DisplayFor(modelItem => item.comorbidade)</td>
+                <td>@Html.DisplayFor(modelItem => item.grau)</td>
             </tr>
         }
     </table>
 </div>
+

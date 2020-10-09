@@ -27,15 +27,14 @@ namespace pacientesPessoas.Controllers
         {
             return View();
         }
-
         public IActionResult Teste(){
-            // Criar uma lista de pacientes
+            //criar uma lista de pacientes:
             var listaPacientes = new List<Pacientes>(){
-                new Pacientes(1, 1, "01/10/2020", "Teste1", 1),
-                new Pacientes(2, 2, "02/10/2020", "Teste2", 2),
-                new Pacientes(3, 1, "03/10/2020", "Teste3", 3),
-                new Pacientes(4, 2, "04/10/2020", "Teste4", 4),
-                new Pacientes(5, 1, "05/10/2020", "Teste5", 5),
+                new Pacientes(1,1,"01/10/2020","Teste1",1),
+                new Pacientes(2,2,"02/10/2020","Teste2",2),
+                new Pacientes(3,1,"03/10/2020","Teste3",3),
+                new Pacientes(4,2,"04/10/2020","Teste4",4),
+                new Pacientes(5,1,"05/10/2020","Teste5",5),
             };
             return View(listaPacientes);
         }

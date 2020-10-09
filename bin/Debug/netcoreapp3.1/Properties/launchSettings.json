@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49349",
-      "sslPort": 44327
+      "applicationUrl": "http://localhost:24696",
+      "sslPort": 44351
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "pacientesPessoas": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000;http://192.168.0.106:5000;https://192.168.0.106:5001",
+      "applicationUrl": "https://localhost:5101;http://localhost:5100;",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
